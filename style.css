@@ -26,6 +26,16 @@ h2 {
     font-family: 'Rubik', sans-serif;
 }
 
+h4 {
+    font-family: 'Rubik', Regular, sans-serif;
+    font-weight: 400;
+}
+
+h5 {
+    font-family: 'Rubik', Light, sans-serif;
+    font-weight: 300;
+}
+
 body{
     background-color: #f2f2f2;
 }
