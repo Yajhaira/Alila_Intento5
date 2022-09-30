@@ -16,9 +16,9 @@
     --color-negro: #1F1F1F;
 }
 
-@media all and (min-width: 320px) {
+@media screen and (min-width: 320px) {
     header {
-        background-color: #793de8;
+        background-color: var(--color-violeta);
     }
 }
 
