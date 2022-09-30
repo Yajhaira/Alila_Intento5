@@ -15,10 +15,27 @@
     --color-lilaRosa: rgb(206, 121, 242);
     --color-negro: #1F1F1F;
 }
+.menuham{
+    display: none;
+}
+.links{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 50px;
+    align-items: center;
+}
 
-@media screen and (min-width: 320px) {
+@media screen and (max-width: 480px) {
     header {
-        background-color: var(--color-violeta);
+        widht: 100%;
+        height: 100px;
+    }
+    .links{
+    display: none;
+    }
+    .menuham{
+    display: block;
     }
 }
 
