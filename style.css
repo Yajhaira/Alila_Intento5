@@ -167,7 +167,7 @@ main {
 .estrellita {
     position: relative;
     position: absolute;
-    top: 230%;
+    top: 260%;
     left: 76%;
     width: 161px;
     height: 150px;
@@ -180,7 +180,7 @@ main {
 .circulito {
     position: relative;
     position: absolute;
-    top: 170%;
+    top: 190%;
     left: 18%;
     width: 121px;
     height: 110px;
@@ -203,29 +203,29 @@ main {
 
 .porcelana {
     margin: 1%;
+    transition: 0.5s;
 }
 
 .mostacilla {
     margin: 1%;
+    transition: 0.5s;
 }
 
 .straps {
     margin: 1%;
+    transition: .5s;
 }
 
 .porcelana:hover {
     width: 40%;
-    transition: 0.5s;
 }
 
 .mostacilla:hover {
     width: 40%;
-    transition: 0.5s;
 }
 
 .straps:hover {
     width: 40%;
-    transition: 0.5s;  
 }
 
 .tituloPulseras {
