@@ -246,3 +246,65 @@ footer > img {
     margin-right: 100px;
 }
 
+
+.agregar {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 32px;
+  height: 32px;
+  margin: -16px 0 0 -16px;
+  display: inline-block;
+  cursor: pointer;
+  border-radius: 50%;
+  transition: background .2s ease;
+  transition-delay: .15s;
+}
+
+  .agregar svg {
+    transform: rotate(270deg);
+  }
+
+   .agregar circle {
+      stroke-width: 2;
+      stroke: white;
+      fill: none;
+      /*//2 * Pi * 15 = 94,25*/
+      stroke-dasharray: 95;
+      /*//2 * stroke-dasharray*/
+      stroke-dashoffset: 190;
+      transition: all .6s ease;
+      stroke-linecap: round;
+    }
+
+    #plus {
+      transform-origin: 50% 50%;
+      transition: all .8s ease;
+    }
+
+    #plus path {
+        stroke-width: 2;
+        stroke: white;
+        fill: none;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+
+  .toggle circle {
+  stroke-dasharray: 95;
+  stroke-dashoffset: 285;
+  }
+
+    #plus {
+      transform: rotate(45deg);
+    }
+
+    #plus:hover {
+      background: rgba(white,.06);    
+    }
+/*html, body
+  height 100%*/
+/*body {
+  background: #644DE6;
+  background-image: linear-gradient(90deg,#644DE6,#3D80E7);
+}*/
