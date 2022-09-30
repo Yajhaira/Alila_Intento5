@@ -154,8 +154,8 @@ main {
 .estrellita {
     position: relative;
     position: absolute;
-    /* top: 70%; */
-    left: 50%;
+    top: 230%;
+    left: 76%;
     width: 161px;
     height: 150px;
     margin: -60px 0 0 150px;
@@ -200,6 +200,10 @@ main {
 .straps:hover {
     width: 40%;
     transition: 0.5s;  
+}
+
+.pulseras {
+    margin: 1%;
 }
 
 .productosPulseras {
